@@ -15,5 +15,6 @@ async function saveFile() {
     await writableStream.close();
   } catch (err) {
     console.error(err.name, err.message);
+    console.log();
   }
 }
