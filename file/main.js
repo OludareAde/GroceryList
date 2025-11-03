@@ -14,7 +14,7 @@ async function saveFile() {
     // close the file and write the contents to disk.
     await writableStream.close();
   } catch (err) {
-    console.error(err.name, err.message);
+    console.error(err.name, err.message); //added a comment
     console.log();
   }
 }
