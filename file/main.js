@@ -15,6 +15,6 @@ async function saveFile() {
     await writableStream.close();
   } catch (err) {
     console.error(err.name, err.message);
-    console.log();
+    console.log(); //added by the second user
   }
 }
